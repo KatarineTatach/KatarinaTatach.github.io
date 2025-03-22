@@ -1,30 +1,22 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlane, Horrible Cop</title>
-<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/main.css">
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Привітання</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Вітаю!</h1>
+        <p>Це проста тестова сторінка з привітанням.</p>
+        <button class="greeting-btn">Натисніть мене</button>
+    </div>
+
+    <script>
+        document.querySelector('.greeting-btn').addEventListener('click', function() {
+            alert('Привіт! Дякую, що натиснули кнопку!');
+        });
+    </script>
+</body>
 </html>
